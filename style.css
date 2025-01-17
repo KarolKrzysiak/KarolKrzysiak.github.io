@@ -8,6 +8,7 @@
     width: 50px;
     height: 50px;
     display: inline-block;
+    color: black;
     line-height: 1;
     transition: transform 0.5s; /* Dodaje płynne przejście */
 }
@@ -15,6 +16,7 @@
 /* Efekt poruszania się po najechaniu */
 .kicon-large:hover {
     animation: tada 1s infinite; /* Uruchamia animację */
+    color: #556B2F;
 }
 @keyframes tada {
     0%, 100% {
@@ -55,9 +57,23 @@
 }
 
 .navbar a.active {
-    font-weight: bold; /* Wyróżnienie aktywnego linku */
+    font-weight: bolder; /* Wyróżnienie aktywnego linku */
     color: #006400; /* Kolor aktywnego linku */
+    font-size: 2.5rem;
 }
 .navbar a:hover {
     color: #556B2F; /* Kolor podczas najechania */
+}
+body{
+    background: #DFF0D8;
+}
+.text-home, .text-skills, .text-education {
+    text-align: center;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: none;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #000;
 }
