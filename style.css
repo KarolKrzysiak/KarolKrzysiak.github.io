@@ -68,6 +68,15 @@ body{
     background: #DFF0D8;
 }
 .text-home, .text-skills, .text-education {
+    text-align: left;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: none;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+.home, .skills, .education {
     text-align: center;
     font-size: 1.2rem;
     color: black;
@@ -75,5 +84,7 @@ body{
     margin: 20px 0;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 2px 2px 4px #000;
+    border-color: #DFF0D8;
+    max-width: 800px; /* Ograniczenie maksymalnej szerokości elementu */
+    width: 60%; /* Szerokość dostosowująca się do małych ekranów */
 }
